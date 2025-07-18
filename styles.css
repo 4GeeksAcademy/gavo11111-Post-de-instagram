@@ -1,0 +1,15 @@
+.body {
+background-color: white;
+  width: 400px;
+  height:800px;
+  }
+    .post {background-color: white;
+  border:1px solid #455;
+  width:400px;
+  
+  }
+  .post-img{
+  display: block;
+  width: 400px;
+  height:400px;
+  }
