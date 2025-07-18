@@ -1,15 +1,70 @@
 .body {
-background-color: white;
+background-color: rgb(54, 52, 52);
   width: 400px;
   height:800px;
   }
     .post {background-color: white;
   border:1px solid #455;
   width:400px;
-  
   }
-  .post-img{
+  
+  
+
+  .post-header{
+    display:flex;
+    justify-content: space-between;
+  
+    
+}
+
+  .html-icon{
+    display:flex-start;
+}
+
+  .html-rigoberto {
+    
+
+  }
+
+  .fa-solid fa-ellipsis-vertical {
+    display:flex-end;
+    
+  }
+
+.post-img{
   display: block;
   width: 400px;
   height:400px;
+  }
+
+  .post-icons{
+
+  }
+
+.heart {
+
+}
+
+  .comment{
+
+  }
+
+  .plane {
+
+  }
+
+  .bookmark{
+
+  }
+
+  .post-body {
+
+  }
+
+  .p {
+
+  }
+
+  .p {
+
   }
