@@ -19,42 +19,101 @@
 
   width:400px;
   justify-content: center;
-
+  margin:auto;
 }
 
 .post-header {
   display: flex;
   justify-content: space-between;
   padding: 15px;
-  flex-direction: ;
+}
+
+#leftboxx-icon-htmlrigoberto {
+  display: flex;
+  justify-content: space-around;
   gap: 10px;
+  
+}
+
+#html-icon {
+  font-size: 24px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
+
+#html-rigoberto {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  font-size: 10px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .post-icons {
   display: flex;
   justify-content: space-between;
   padding: 10px;
   padding-bottom: 0px;
+  
 }
 
+#elipsis-vertical {
+  font-size: 24px;
+}
+
+
+#left-icons {
+ display: flex;
+  align-items: center;
+justify-content: space-evenly;
+gap: 10px;
+}
+
+
+
+.elipsis-vertical {
+  width: 20px;
+  height: 20px;
+  background-size: cover;
+}
+
+#heart {
+  font-size: 30px;
+}
+#comment {
+  font-size: 30px;
+}
+#plane {
+  font-size: 30px;
+}
+#bookmark {
+  font-size: 30px;
+}
 .post-body
 {
   padding: 15px;
   color: hsl(0, 2%, 18%);
+}
 
-  .post-body h4 {
+.post-body h4 {
     font-size: 14px;
     font-weight: 500;
-    margin-top: 10px;
-    margin-bottom: 10px;
-  
+    margin-top: 1px;
+    margin-bottom: 1px;
+    font-size: 12px;
+    font-weight: bold;   
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
+
   .post-body p {
     font-size: 14px;
     font-weight: 200;
     margin-top: 10px;
     margin-bottom: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   } 
-}
 
 
   
